@@ -1,0 +1,19 @@
+.okay {
+        align-items: center;
+       
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+        -webkit-animation: parallax 10s linear infinite;
+                animation: parallax 10s linear infinite;
+        background-image: url("images/img1.jpg");
+        -webkit-background-clip: text;
+                background-clip: text;
+        background-size: 600px;
+        font-size: min(17em, 34vw);
+        line-height: 1.5;
+        text-align: center;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 3px #000;
+      }
+      
